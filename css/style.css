@@ -1,0 +1,73 @@
+/* Parallax effect */
+.parallax {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Heading styles */
+.header {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 60px;
+    text-decoration-color: #ffa20c;
+    text-shadow: 2px 2px 4px rgb(255, 214, 133)
+}
+
+/* sunrise image */
+.sunrise {
+    background-image: url("images/sunrise.jpg");
+}
+
+/* bedroom image */
+.room{
+    background-image: url("images/bedroom.jpg");
+}
+
+/* text style */
+.content {
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "font1";
+    font-size: 30px;
+    padding: 60px;
+    background: #fcf1d8;
+}
+
+/* set background color */
+body {
+    background-color:#fcf1d8;
+}
+
+/* button styles */
+button{
+    font-size: 50px;
+    background-color: rgb(255, 235, 164);
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgb(46, 35, 16);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* btnstyle styles */
+.btnstyle {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 60px;
+    margin-bottom:30px ;
+}
+
+/* hovering style for button */
+button:hover {
+    background-color: rgb(255, 187, 145);
+}

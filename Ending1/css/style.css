@@ -1,0 +1,78 @@
+/* parallax effect */
+.parallax {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* header style */
+h1{
+    text-align: center;
+}
+
+/* study image */
+.studying {
+    background-image: url("images/studying.jpg");
+}
+
+/* hourglass image */
+.hourglass {
+    background-image: url("images/hourglass.jpg");
+}
+
+/* wifi image */
+.wifi {
+    background-image: url("images/wifi.png");
+}
+
+/* clock image */
+.clock {
+    background-image: url("images/clock.avif");
+}
+
+/* text style */
+.content {
+    min-height: 40vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    font-family: "font1";
+    font-size: 30px;
+    padding: 60px;
+    background: #fcf1d8;
+}
+
+/* change background image */
+body {
+    background-color: #fcf1d8;
+}
+/* start again button */
+.btnstyle {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+button {
+    font-size: 35px;
+    background-color: rgb(255, 235, 164);
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgb(46, 35, 16);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: rgb(255, 187, 145);
+}

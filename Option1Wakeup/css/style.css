@@ -1,0 +1,94 @@
+/* parallax effect */
+.parallax {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* heading style */
+.header {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 60px;
+    text-decoration-color: #ffa20c;
+    text-shadow: 2px 2px 4px rgb(255, 214, 133)
+}
+
+/* closet image */
+.closet {
+    background-image: url("images/closet.avif");
+}
+
+/* cafe image */
+.cafe {
+    background-image: url("images/cafe.jpg");
+}
+
+/* text style */
+.content {
+    min-height: 40vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    font-family: "font1";
+    font-size: 30px;
+    padding: 60px;
+    background: #fcf1d8;
+}
+
+/* change background colour */
+body {
+    background-color: #fcf1d8;
+}
+
+/* button styles */
+button {
+    font-size: 50px;
+    background-color: rgb(255, 235, 164);
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgb(46, 35, 16);
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+/* button styles */
+.btnstyle {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+/* button hover style */
+button:hover {
+    background-color: rgb(255, 187, 145);
+}
+
+/* order button style */
+#orderbtn {
+    margin-left: 600px;
+    background-color: rgb(93, 60, 38);
+}
+
+/* button hover */
+#orderbtn:hover {
+    color: white
+    
+}
+
+/* button style */
+#btn1 {
+    margin-left: 300px;
+    font-size:35px ;
+    background-color: rgb(155, 129, 86);
+}

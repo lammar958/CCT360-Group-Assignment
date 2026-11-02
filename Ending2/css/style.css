@@ -1,0 +1,128 @@
+.parallax {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 60px;
+    text-decoration-color: #ffa20c;
+    text-shadow: 2px 2px 4px rgb(255, 214, 133);
+}
+
+.home {
+    background-image: url("../images/home.jpg");
+}
+
+.content {
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "font1";
+    font-size: 30px;
+    padding: 60px;
+    background: #fcf1d8;
+}
+
+body {
+    background-color: #fcf1d8;
+}
+
+.checklist {
+    background-color: rgb(255, 235, 164);
+    padding: 40px;
+    margin: 50px auto;
+    max-width: 650px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(46, 35, 16);
+}
+
+.checklist h2 {
+    font-size: 35px;
+}
+
+.checklist label {
+    display: block;
+    font-size: 30px;
+    margin: 25px;
+    cursor: pointer;
+}
+
+.checklist input {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+button {
+    font-size: 35px;
+    background-color: rgb(255, 235, 164);
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgb(46, 35, 16);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: rgb(255, 187, 145);
+}
+
+.btnstyle {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+#submitbtn {
+    background-color: rgb(155, 129, 86);
+    margin-top: 30px;
+}
+
+#submitbtn:hover {
+    color: white;
+}
+
+#ending {
+    background-color: #fcf1d8;
+}
+
+@media (max-width: 600px) {
+    .header {
+        font-size: 35px;
+    }
+
+    .content {
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .checklist {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .checklist label {
+        font-size: 22px;
+    }
+
+    button {
+        font-size: 25px;
+    }
+
+    .parallax {
+        background-attachment: scroll;
+    }
+}

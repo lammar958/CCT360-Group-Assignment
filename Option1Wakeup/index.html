@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waking up early</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Heading and context -->
+    <h1 class="header">You woke up early!</h1>
+    <h1 class="header">Let's get ready for class :D</h2>
+
+    <!-- closet image -->
+    <section class="closet parallax"></section>
+
+    <!-- context -->
+    <section class="content">
+        <h2>Let's head to the coffee shop before class</h2>
+    </section>
+
+    <!-- cafe image -->
+    <section class="cafe parallax"></section>
+
+    <!-- ask user -->
+    <h1 class="header">What will you order today?</h1>
+
+    <!-- button options for user -->
+    <div class="btnstyle">
+
+        <!-- remember what user wants to get -->
+        <button onclick="drinkFunction('Latte')">Latte</button>
+        <button onclick="drinkFunction('Hot Chocolate')">Hot Chocolate</button>
+        <button onclick="drinkFunction('Iced Americano')">Iced Americano</button>
+        <button onclick="drinkFunction('Cappuccino')">Cappuccino</button>
+
+    </div>
+
+    <!-- order button -->
+    <button id="orderbtn" onclick="orderFunction()">Order</button>
+    
+    <!-- To proceed to next page -->
+    <button id="btn1">Let's head to class now!</button>
+
+    <!-- connecting javascript -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

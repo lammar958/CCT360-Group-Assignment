@@ -1,0 +1,92 @@
+.parallax {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 60px;
+    text-decoration-color: #ffa20c;
+    text-shadow: 2px 2px 4px rgb(255, 214, 133);
+}
+
+.library {
+    background-image: url("../images/library.jpg");
+}
+
+.content {
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "font1";
+    font-size: 30px;
+    padding: 60px;
+    background: #fcf1d8;
+}
+
+body {
+    background-color: #fcf1d8;
+}
+
+button {
+    font-size: 50px;
+    background-color: rgb(255, 235, 164);
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgb(46, 35, 16);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btnstyle {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+button:hover {
+    background-color: rgb(255, 187, 145);
+}
+
+#taskimage {
+    width: 80%;
+    max-width: 700px;
+    height: auto;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+    .header {
+        font-size: 35px;
+    }
+
+    .content {
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    button {
+        font-size: 30px;
+    }
+
+    .btnstyle {
+        gap: 20px;
+    }
+
+    .parallax {
+        background-attachment: scroll;
+    }
+}
